@@ -4,7 +4,7 @@
 
 ![Screen Shot 2022-09-11 at 2 34 42 pm](https://user-images.githubusercontent.com/49617008/189512663-d30b18a8-7ade-454e-92e8-54977689ffbb.png)
 
-Built with React and TypeScript and styled-components for CSS.
+Built with React and TypeScript and styled-components for CSS. Click a movie title to view movie info and also supports infinite scrolling.
 ## Instructions to use:
 1. Clone the repo
 2. Run ``npm install`` to install all packages

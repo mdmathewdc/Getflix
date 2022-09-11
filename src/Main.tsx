@@ -22,11 +22,11 @@ const EmptySearch = styled.div`
 `;
 
 const Main: FunctionComponent = () => {
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(1); // Current page number - Starts from 1
   const [movieList, setMovieList] = useState<any>([]);
   const [currentSearch, setCurrentSearch] = useState('');
   const [loading, setLoading] = useState(true);
-  const [listCount, setListCount] = useState<number | undefined>(undefined);
+  const [listCount, setListCount] = useState<number | undefined>(undefined); // Store the total number of search results for a particular query
 
   const setSearchQuery = (searchQuery: string) => {
     setCurrentSearch(searchQuery);
