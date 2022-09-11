@@ -1,4 +1,8 @@
-# GETFLIX 
+# GETFLIX
+
+![Screen Shot 2022-09-11 at 2 35 38 pm](https://user-images.githubusercontent.com/49617008/189512657-25b56d78-24d7-4edb-9d8e-c534d5e9c768.png)
+
+![Screen Shot 2022-09-11 at 2 34 42 pm](https://user-images.githubusercontent.com/49617008/189512663-d30b18a8-7ade-454e-92e8-54977689ffbb.png)
 
 Built with React and TypeScript and styled-components for CSS.
 ## Instructions to use:
