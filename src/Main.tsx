@@ -34,7 +34,7 @@ const Main: FunctionComponent = () => {
 
   const fetchMovieDetails = async () => {
     setLoading(true);
-    const response = await fetch(`http://www.omdbapi.com/?s=${currentSearch}&apikey=8652abfa&page=${page}`);
+    const response = await fetch(`https://www.omdbapi.com/?s=${currentSearch}&apikey=8652abfa&page=${page}`);
     const movies = await response.json();
 
     if (movies.Response === 'False') {
