@@ -152,7 +152,7 @@ const MovieTile: FunctionComponent<MovieTileProps> = ({
   const handleTitleClick = async () => {
     setIsLoading(true);
     setActiveTile(imdbID);
-    const response = await fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=8652abfa`);
+    const response = await fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=8652abfa`);
     const movieDetails = await response.json();
     setMoviePlot({ plot: movieDetails.Plot, cast: movieDetails.Actors });
     setIsLoading(false);
