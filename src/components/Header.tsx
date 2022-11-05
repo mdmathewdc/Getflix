@@ -13,7 +13,7 @@ const StyledHeader = styled.header`
   margin: 0 20px;
 
   p {
-    font-size: 24px;
+    font-size: 20px;
     color: red;
     font-weight: 700;
     letter-spacing: 3px;
